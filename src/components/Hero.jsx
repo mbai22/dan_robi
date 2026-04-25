@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="hero" className="hero">
       {/* Background Effects */}
       <div className="hero-bg">
-        <img src="/src/assets/hero-bg.png" alt="Background" className="hero-bg-image" />
+        <img src="/assets/hero-bg.png" alt="Background" className="hero-bg-image" />
         <div className="hero-orb hero-orb-1" />
         <div className="hero-orb hero-orb-2" />
       </div>

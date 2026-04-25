@@ -36,7 +36,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-primary contact-section">
       <div className="contact-bg">
-        <img src="/src/assets/contact.png" alt="Background" className="contact-bg-image" />
+        <img src="/assets/contact.png" alt="Background" className="contact-bg-image" />
       </div>
       <div className="section-container">
         {/* Section Header */}

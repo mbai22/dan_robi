@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Play, ExternalLink, Youtube, Music2, Mic2, Music, Sun, Flame, Crown, Star } from 'lucide-react';
 
 const projects = [
-  { id: 1, title: "Wala Tchad", artist: "Mc One", type: "Production", platform: "youtube", Icon: Mic2, bgColor: "#fdb901", views: "125K", image: "/src/assets/img/WhatsApp Image 2026-04-17 at 20.54.12.jpeg" },
-  { id: 2, title: "N'djamena Flow", artist: "Lil Tchad", type: "Beatmaking", platform: "youtube", Icon: Music, bgColor: "#7a00ff", views: "89K", image: "/src/assets/img/WhatsApp Image 2026-04-17 at 20.54.11.jpeg" },
-  { id: 3, title: "Sahel Dreams", artist: "Desert King", type: "Mix & Master", platform: "music", Icon: Sun, bgColor: "#fdb901", views: "45K", image: "/src/assets/img/WhatsApp Image 2026-04-17 at 20.54.11 (1).jpeg" },
-  { id: 4, title: "Afro Drill Tchad", artist: "Street Voice", type: "Production Complète", platform: "youtube", Icon: Flame, bgColor: "#7a00ff", views: "67K", image: "/src/assets/img/WhatsApp Image 2026-04-17 at 20.54.10.jpeg" },
-  { id: 5, title: "Mère Africa", artist: "Queen Maya", type: "Arrangement", platform: "music", Icon: Crown, bgColor: "#fdb901", views: "34K", image: "/src/assets/img/WhatsApp Image 2026-04-17 at 20.54.10 (1).jpeg" },
-  { id: 6, title: "Tchad Rising", artist: "Various Artists", type: "Album Production", platform: "youtube", Icon: Star, bgColor: "#7a00ff", views: "200K", image: "/src/assets/img/WhatsApp Image 2026-04-17 at 20.54.09.jpeg" }
+  { id: 1, title: "Wala Tchad", artist: "Mc One", type: "Production", platform: "youtube", Icon: Mic2, bgColor: "#fdb901", views: "125K", image: "/assets/img/WhatsApp Image 2026-04-17 at 20.54.12.jpeg" },
+  { id: 2, title: "N'djamena Flow", artist: "Lil Tchad", type: "Beatmaking", platform: "youtube", Icon: Music, bgColor: "#7a00ff", views: "89K", image: "/assets/img/WhatsApp Image 2026-04-17 at 20.54.11.jpeg" },
+  { id: 3, title: "Sahel Dreams", artist: "Desert King", type: "Mix & Master", platform: "music", Icon: Sun, bgColor: "#fdb901", views: "45K", image: "/assets/img/WhatsApp Image 2026-04-17 at 20.54.11 (1).jpeg" },
+  { id: 4, title: "Afro Drill Tchad", artist: "Street Voice", type: "Production Complète", platform: "youtube", Icon: Flame, bgColor: "#7a00ff", views: "67K", image: "/assets/img/WhatsApp Image 2026-04-17 at 20.54.10.jpeg" },
+  { id: 5, title: "Mère Africa", artist: "Queen Maya", type: "Arrangement", platform: "music", Icon: Crown, bgColor: "#fdb901", views: "34K", image: "/assets/img/WhatsApp Image 2026-04-17 at 20.54.10 (1).jpeg" },
+  { id: 6, title: "Tchad Rising", artist: "Various Artists", type: "Album Production", platform: "youtube", Icon: Star, bgColor: "#7a00ff", views: "200K", image: "/assets/img/WhatsApp Image 2026-04-17 at 20.54.09.jpeg" }
 ];
 
 const filters = ["Tous", "Production", "Beatmaking", "Mix & Master", "Arrangement"];
@@ -23,7 +23,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="bg-primary portfolio-section">
       <div className="portfolio-bg">
-        <img src="/src/assets/portfolio.png" alt="Background" className="portfolio-bg-image" />
+        <img src="/assets/portfolio.png" alt="Background" className="portfolio-bg-image" />
       </div>
       <div className="section-container">
         {/* Section Header */}
