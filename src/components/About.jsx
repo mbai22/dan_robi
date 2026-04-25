@@ -18,7 +18,7 @@ export default function About() {
           <div className="about-image-wrapper animate-slideInLeft">
             <div className="about-image">
               <img 
-                src="/src/assets/img/about_dan.jpeg" 
+                src="/assets/img/about_dan.jpeg" 
                 alt="Dan's Robi - Beatmaker & Producteur"
                 className="about-image-img"
                 loading="lazy"
